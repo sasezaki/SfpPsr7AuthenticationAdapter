@@ -1,0 +1,21 @@
+{
+    "require": {
+        "psr/http-message": "~1.0"
+    },
+
+    "require-dev": {
+        "zendframework/zend-authentication": "~2.5",
+        "phpunit/phpunit": "~4.8",
+        "squizlabs/php_codesniffer": "~2.0"
+    },
+    "autoload": {
+        "psr-4" : {
+            "SfpPsr7AuthenticationAdapter\\": "src/SfpPsr7AuthenticationAdapter/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4" : {
+            "SfpPsr7AuthenticationAdapterTest\\": "tests/SfpPsr7AuthenticationAdapterTest/"
+        }
+    }
+}
